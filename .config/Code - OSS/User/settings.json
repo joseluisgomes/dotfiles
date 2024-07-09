@@ -1,0 +1,7 @@
+{
+    "editor.fontFamily": "'JetBrainsMono Nerd Font'",
+    "editor.fontSize": 15,
+    "editor.smoothScrolling": true,
+    "terminal.integrated.fontSize": 16,
+    "workbench.colorTheme": "Catppuccin Mocha"
+}
