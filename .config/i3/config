@@ -193,6 +193,10 @@ bindsym $mod+r mode "resize"
 # Shortcut for Lockscreen
 bindsym $mod+x exec /home/$USER/.config/i3color-lock/lock
 
+# Adjust the screen brightness
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
+
 # Title Bar
 default_border pixel 1
 default_floating_border pixel 1
