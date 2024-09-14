@@ -61,7 +61,7 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run -l 6 -fn 'JetBrainsMono Nerd Font Regular:pixelsize=20' -nf '#cdd6f4' -nb '#1e1e2e' -sf '#1e1e2e' -sb '#89dceb'
+bindsym $mod+d exec --no-startup-id dmenu_run 
 
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
@@ -249,7 +249,7 @@ bar {
     		background         $base
     		statusline         $text
 		focused_statusline $text
-	    	separator  	   $mauve
+	    	separator  	   $sky
     		focused_workspace  $base $base $peach
     		active_workspace   $base $base $blue
     		inactive_workspace $base $base $surface1
