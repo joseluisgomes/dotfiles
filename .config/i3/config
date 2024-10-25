@@ -64,7 +64,7 @@ bindsym $mod+Shift+q kill
 bindsym $mod+d exec --no-startup-id dmenu_run 
 
 # launch floorp browser
-bindsym $mod+b exec floorp
+bindsym $mod+b exec firefox
 
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
