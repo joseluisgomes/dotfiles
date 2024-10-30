@@ -232,12 +232,12 @@ set $base #1e1e2e
 set $mantle #181825
 set $crust #11111b
 
-# target                 title     bg    text   indicator  border
-client.focused           $lavender $base $text  $rosewater $peach
-client.focused_inactive  $overlay0 $base $text  $rosewater $overlay0
-client.unfocused         $overlay0 $base $text  $rosewater $overlay0
-client.urgent            $peach    $base $peach $overlay0  $peach
-client.placeholder       $overlay0 $base $text  $overlay0  $overlay0
+# class                  border    bground text    indicator  child_border
+client.focused           $lavender $base   $text   $rosewater $mauve
+client.focused_inactive  $overlay0 $base   $text   $rosewater $overlay0
+client.unfocused         $overlay0 $base   $text   $rosewater $overlay0
+client.urgent            $peach    $base   $peach  $overlay0  $peach
+client.placeholder       $overlay0 $base   $text   $overlay0  $overlay0
 client.background        $base
 
 # Start i3bar to display a workspace bar (plus the system information i3status
@@ -251,13 +251,15 @@ bar {
 	colors {
     		background         $base
     		statusline         $text
-		focused_statusline $text	
-    		focused_workspace  $base $base $peach
-    		active_workspace   $base $base $blue
-    		inactive_workspace $base $base $surface1
-    		urgent_workspace   $base $base $surface1
-    		binding_mode       $base $base $surface1
-  	}	
+    		focused_statusline $text
+    		focused_separator  $base	
+
+		# target           border bg        text
+	        focused_workspace  $base  $mauve    $crust
+    		active_workspace   $base  $surface2 $text
+    		inactive_workspace $base  $base     $text
+    		urgent_workspace   $base  $red      $crust
+	}	
 }
 
 # Start the picom compositor with the specified config file
