@@ -8,6 +8,7 @@
   - **GTK-Font**: [JetBrainsMono](https://www.jetbrains.com/lp/mono/)
   - **GTK Cursor-Theme**: [Catppuccin-Mocha](https://github.com/catppuccin/cursors)
 - **Bar**: [i3status](https://i3wm.org/i3status/manpage.html#_volume)
+- **Launcher**: [dmenu](https://tools.suckless.org/dmenu/)
 
 ## Screenshots
 
