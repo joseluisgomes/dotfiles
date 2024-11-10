@@ -14,12 +14,12 @@
 
 |  Background  |
 |  -  |
-|  ![i3wm_rice_pic_1](https://github.com/user-attachments/assets/aff3eed8-63ae-448a-b3a3-cb4ea159076b)  |
+|  ![i3wm_rice_pic_1](https://github.com/user-attachments/assets/6d15fa5d-25b6-4e59-a4cb-c43d83712d52)  |
 
 |  Multitasking  |
 |  -  |
-|  ![i3wm_rice_pic_2](https://github.com/user-attachments/assets/5ff0cc23-dccc-43fa-bb08-ed0a2531293d)  |
+|  ![i3wm_rice_pic_2](https://github.com/user-attachments/assets/58125b7f-b603-473a-948d-2277be2f604e)  |
 
 |  Classic  |
 |  -  |
-|  ![i3wm_rice_pic_3](https://github.com/user-attachments/assets/4464393f-b532-4a8d-812e-34bb204ab0d8)  |
+|  ![i3wm_rice_pic_3](https://github.com/user-attachments/assets/67bbce4f-afbc-4264-8b43-1b959042093d)  |
