@@ -204,6 +204,12 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 default_border pixel 1
 default_floating_border pixel 1
 
+# Configure 3px of space between windows and to the screen edges.
+gaps inner 3px
+
+# Outer gaps for all windows: space along the screen edges.
+gaps outer 3px
+
 # Catppuccin-mocha color scheme
 set $rosewater #f5e0dc
 set $flamingo #f2cdcd
