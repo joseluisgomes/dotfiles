@@ -1,2 +1,3 @@
-Xcursor.theme: catppuccin-mocha-dark-cursors 
-Xcursor.size: 24
+#include "/home/luis/.cache/wal/colors.Xresources"
+Xcursor.theme: BreezeX-RosePine-Linux
+Xcursor.size: 32

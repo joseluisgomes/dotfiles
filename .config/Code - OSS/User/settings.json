@@ -3,5 +3,6 @@
     "editor.fontSize": 15,
     "editor.smoothScrolling": true,
     "terminal.integrated.fontSize": 16,
-    "workbench.colorTheme": "Catppuccin Mocha"
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "Wal"
 }
