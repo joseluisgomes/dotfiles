@@ -1,3 +1,6 @@
+" Disable modifyOtherKeys
+let [&t_TI, &t_TE] = ['', '']
+
 " Enable type file detection. Vim will be able to try to detect the type of file in use.
 filetype on
 

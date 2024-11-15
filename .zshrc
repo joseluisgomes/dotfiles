@@ -65,7 +65,7 @@ ZSH_THEME="clean"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
+#source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
@@ -109,5 +109,18 @@ alias vimconf="vim $HOME/.vimrc"
 alias blth="bluetoothctl"
 alias weather="curl wttr.in/Guimarães"
 alias clock="tty-clock -c -C 4 -f '%d/%m/%Y'"
+alias ff="fastfetch"
 alias config="git --git-dir=$HOME/Github/dotfiles --work-tree=$HOME"
 alias i3conf="vim $HOME/.config/i3/config"
+
+# Import colorscheme from 'wal' asynchronously
+# &   # Run the process in the background.
+# ( ) # Hide shell job control messages.
+# Not supported in the "fish" shell.
+(cat ~/.cache/wal/sequences &)
+
+# Alternative (blocks terminal for 0-3ms)
+cat ~/.cache/wal/sequences
+
+# To add support for TTYs this line can be optionally added.
+source ~/.cache/wal/colors-tty.sh
