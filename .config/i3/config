@@ -44,6 +44,10 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
+# Closing notifications using shortcuts
+bindsym ctrl+space exec dunstctl close
+bindsym ctrl+shift+space exec dunstctl close-all
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
@@ -252,6 +256,9 @@ exec --no-startup-id picom --config /home/$USER/.config/picom/picom.conf
 # We grab the wallpaper location from wal's cache so 
 # that this works even when a directory is passed.
 exec_always feh --bg-fill "$(< "${HOME}/.cache/wal/wal")"  
+
+# Start the notification-daemon
+exec --no-startup-id dunst -conf /home/$USER/.config/dunst/dunstrc
 
 # Start the Polkit agent 
 exec --no-startup-id /usr/lib/xfce-polkit/xfce-polkit

@@ -110,6 +110,7 @@ alias blth="bluetoothctl"
 alias weather="curl wttr.in/Guimarães"
 alias clock="tty-clock -c -C 4 -f '%d/%m/%Y'"
 alias ff="fastfetch"
+alias yz="yazi"
 alias config="git --git-dir=$HOME/Github/dotfiles --work-tree=$HOME"
 alias i3conf="vim $HOME/.config/i3/config"
 
