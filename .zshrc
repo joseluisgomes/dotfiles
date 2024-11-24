@@ -72,7 +72,7 @@ ZSH_THEME="clean"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git archlinux zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(git archlinux colored-man-pages zsh-syntax-highlighting zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -111,6 +111,7 @@ alias weather="curl wttr.in/Guimarães"
 alias clock="tty-clock -c -C 4 -f '%d/%m/%Y'"
 alias ff="fastfetch"
 alias yz="yazi"
+alias v="vim"
 alias config="git --git-dir=$HOME/Github/dotfiles --work-tree=$HOME"
 alias i3conf="vim $HOME/.config/i3/config"
 
