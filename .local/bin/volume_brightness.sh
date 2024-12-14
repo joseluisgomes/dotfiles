@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # See README.md for usage instructions
-bar_color="#9ccfd8"
+bar_color="#907aa9"
 volume_step=1
 brightness_step=1
 max_volume=100
